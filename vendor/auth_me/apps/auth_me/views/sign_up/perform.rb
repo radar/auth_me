@@ -1,5 +1,5 @@
 module AuthMe::Views::SignUp
-  class Create
+  class Perform
     include AuthMe::View
 
     template 'sign_up/new'

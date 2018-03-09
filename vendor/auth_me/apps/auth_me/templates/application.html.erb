@@ -5,6 +5,9 @@
   </head>
   <body>
     This should really go away, but I don't know how.
+    <% binding.pry %>
+    <%= flash[:notice] %>
+    <%= flash[:alert] %>
     <%= yield %>
   </body>
 </html>
